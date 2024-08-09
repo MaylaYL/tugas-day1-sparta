@@ -1,0 +1,186 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+header {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+  padding: 20px;
+  background-color: #1F2F16;
+  color: white;
+  width: 100%;
+  top: 0;
+  height: 0px;
+}
+
+a {
+  font-family: 'Rubik', sans-serif;
+  color: rgb(251, 255, 229);
+  text-decoration: none;
+  margin: 10px;
+}
+
+body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: #1F2F16;
+  background-color: rgb(235, 247, 232);
+}
+
+#profile {
+  width: auto;
+  height: auto;
+  margin: 40px;
+}
+
+#interests {
+  display: block;
+  background-color: #c3dfc3;
+  padding: 5%;
+}
+
+.interestContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interestContainer {
+  border: 2px rgb(130, 168, 122) solid;
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 1%;
+  border-style: dotted;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px rgb(221, 212, 193);
+
+}
+
+#profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#fotoDiri {
+  width: 20%;
+  height: 20%;
+  border-radius: 5%;
+  margin: 1%;
+}
+
+
+.projectContent {
+  display: flex;
+  justify-content: center;
+}
+
+.projectContainer {
+  border: 2px rgb(130, 168, 122) solid;
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 1%;
+  border-style: dotted;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px rgb(221, 212, 193);
+
+}
+
+.gambarProject {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.detailProject {
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: #1F2F16;
+  text-decoration: underline;
+}
+
+.projectPage {
+  display: block;
+  margin: 40px;
+}
+
+.tombolBack {
+  font-family: 'Rubik', sans-serif;
+  color: #1F2F16;
+  text-decoration: underline;
+}
+
+#achievements {
+  display: block;
+  background-color: #c3dfc3;
+  padding: 5%;
+}
+
+.achievementContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievementContainer {
+  border: 2px rgb(130, 168, 122) solid;
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 1%;
+  border-style: dotted;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px rgb(221, 212, 193);
+}
+
+.navLink {
+  margin: 20px;
+}
+
+.icons {
+  width: 25px;
+  height: 25px;
+}
+
+.gambar {
+  max-width: 20%;
+  max-height: 20%;
+}
+
+.socialMedia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.socialMediaAccount{
+  font-size: 70%;
+  margin: 10px;
+}
+
+.profileContent{
+  margin: 0px;
+}
